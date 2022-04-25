@@ -1,0 +1,195 @@
+/* ---------ici on gere le responsive-------------- */
+@media screen and (max-width: 1000px) {
+  .pasEnMobile {
+    display: none;
+  }
+  /*--------------ICI ON S'OCCUPE DU STYLE DU BODY--------*/
+
+  body {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #corp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /* --------------ICI ON s'OCCUPE DU STYLE DU HEADER--------*/
+
+  header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .navbar {
+    font-weight: bold;
+    font-family: Arial black, Helvetica, sans-serif;
+    margin-left: 100px;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 0.9em;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .dropbtn {
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    color: rgb(7, 5, 5);
+    padding: 14px 16px;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover,
+  .dropbtn:hover {
+    background-color: rgb(224, 224, 224);
+  }
+
+  .dropdownCont {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background-color: #f9f9f9;
+    min-width: 227.5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdownCont a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: start;
+  }
+
+  .dropdownCont a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdownCont {
+    display: block;
+  }
+
+  .dropdown i {
+    color: black;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1.6em;
+  }
+  .search-box {
+    width: 75%;
+  }
+
+  #logo * {
+    margin-right: 5px;
+  }
+  #cart * {
+    margin-left: 5px;
+  }
+
+  /*----------------ICI ON S'OCCUPE DU STYLE NAV (du body)--------*/
+  nav {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+  nav a:hover {
+    color: white;
+    background-color: black;
+  }
+  #filter {
+    color: grey;
+    text-align: left;
+  }
+  .enMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  nav select {
+    display: block;
+    background-color: white;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px, solid, grey;
+    font-size: 1.5em;
+  }
+  #price {
+    display: flex;
+    flex-direction: column;
+  }
+  #prix {
+    flex: flex;
+  }
+  #ordreDePrix {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*----------------ICI ON S'OCCUPE DU STYLE DES ARTICLES------------*/
+  article {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    font-size: small;
+  }
+  .descriptions {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 350px;
+  }
+  .type {
+    color: grey;
+  }
+  article a:hover {
+    box-shadow: 2px 2px 2px 2px black;
+  }
+  article .shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* --------------------ICI ON FAIT LE STYLE DU FOOTER------------------*/
+  footer a {
+    padding: 20px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: white;
+    background-color: black;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+}

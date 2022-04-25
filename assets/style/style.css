@@ -1,0 +1,137 @@
+/*--------------ICI ON S'OCCUPE DU STYLE DU BODY--------*/
+
+@font-face {
+  font-family: "avenirfont";
+  src: url(/assets/font/avenir/AvenirLTStd-Book.otf);
+}
+
+.type,
+nav {
+  font-family: "avenirfont", sans-serif;
+}
+
+.mourad,
+#corp,
+.descriptions {
+  font-family: "robotofont", sans-serif;
+}
+.enMobile {
+  display: none;
+}
+body {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+#corp {
+  display: flex;
+  flex-wrap: wrap;
+  height: 640px;
+  justify-content: space-between;
+}
+/* --------------ICI ON s'OCCUPE DU STYLE DU HEADER--------*/
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  text-align: center;
+}
+
+/*----------------ICI ON S'OCCUPE DU STYLE NAV (du body)--------*/
+nav {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+nav a:hover {
+  color: white;
+  background-color: black;
+}
+#filter {
+  color: grey;
+  text-align: left;
+}
+nav #form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav select {
+  display: block;
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px, solid, grey;
+  padding-bottom: 15px;
+}
+#prix {
+  width: 100%;
+}
+#ordreDePrix {
+  display: flex;
+  justify-content: space-between;
+}
+#PR {
+  display: flex;
+}
+#price_min {
+  width: 135px;
+}
+#price_max {
+  width: 135px;
+}
+
+/*----------------ICI ON S'OCCUPE DU STYLE DES ARTICLES------------*/
+article {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  margin-bottom: 50px;
+}
+.descriptions {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+.type {
+  color: grey;
+}
+article a:hover {
+  box-shadow: 2px 2px 2px 2px black;
+}
+article .shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+article #picture {
+  height: 66%;
+}
+/* --------------------ICI ON FAIT LE STYLE DU FOOTER------------------*/
+footer {
+  display: flex;
+}
+footer a {
+  padding: 20px;
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+  background-color: black;
+}
+footer #active {
+  color: white;
+  background-color: black;
+}

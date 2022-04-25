@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+  position: relative;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+h2 {
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  color: red;
+}

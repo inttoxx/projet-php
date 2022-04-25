@@ -1,0 +1,44 @@
+.mourad {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.search-box {
+  display: flex;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-bottom: 2px solid black;
+  align-items: center;
+}
+
+#text {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.search-box p {
+  font-size: small;
+  margin-right: 30px;
+}
+
+.search-box img {
+  width: 20px;
+  height: 20px;
+}
+
+.mourad input {
+  flex-grow: 3;
+  border: none;
+}
+
+.mourad select {
+  width: 30%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid grey;
+  background-color: white;
+  font-size: 1.3em;
+}

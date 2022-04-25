@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "robotofont";
+  src: url(assets/font/roboto/Roboto-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "avenirfont";
+  src: url(assets/font/avenir/AvenirLTStd-Book.otf) format(otf);
+}
+
+#davin_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: none;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#davin_header a {
+  color: black;
+  text-decoration: none;
+  font-family: robotofont, sans-serif;
+}
+#cart {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: none;
+}
+#logo * {
+  margin-right: 20px;
+}
+#cart * {
+  margin-left: 20px;
+}
